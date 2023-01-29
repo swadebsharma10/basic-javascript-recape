@@ -1,0 +1,44 @@
+var numbers = [20, 30, 14, 15, 66, 44, 88, 100, 200,544];
+console.log(numbers.length);
+
+var friends =[ 'korim', 'Rohim', 'Jodu', 'Modhu', 'kholil'];
+console.log(friends.length)
+
+var positionjodu = friends.indexOf('Jodu');
+console.log(positionjodu);
+
+
+friends.push('Bangladesh');
+friends.pop()
+console.log(friends);
+
+friends.unshift('Me-Swadeb');
+friends.shift()
+console.log(friends)
+
+// LOOP SYSTEMS
+// Example: 01
+// Display 1-20 using for loop
+
+var number = 1;
+for(var i = 1; i <= 20; i++){
+    // console.log(i)
+}
+
+// exmple: 2
+
+var temp =[];
+
+var numbers = [33, 44, 11, 23, 45, 65, 67, 99, 98,44];
+for( var i = 0; i < numbers.length; i++){
+    var elements = numbers[i];
+    // console.log(elements);
+    if (elements % 2 == 0){
+        temp.push(elements);
+    }
+}
+console.log(temp);
+
+
+// exmple:03
+var friends =[ 'korim', 'Rohim', 'Jodu', 'Modhu', 'kholil'];
